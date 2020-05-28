@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+*  {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+p {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #212121;
+}
