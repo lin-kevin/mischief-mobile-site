@@ -1,0 +1,94 @@
+<div id = "mobile-form">
+    <div id = "mobile-form-header">
+        <b>Mischief </b> <br>
+        Which roles interest you?
+    </div>
+    <div id = "mobile-form-subheader">
+        Check all that apply.
+    </div>
+    
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isScreenwriter']">
+            <span class = "mobile-role-header">
+                Screenwriter
+            </span>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            Sell your scripts, without the middleman.
+        </div>
+    </div>
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isProducer']">
+            <div class = "mobile-role-header">
+                Producer
+            </div>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            Lead a production, from script to screen.
+        </div>
+    </div>
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isActor']">
+            <span class = "mobile-role-header">
+                Actor
+            </span>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            Discover your breakout role with free casting calls and auditions.
+        </div>
+    </div>
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isCrewMember']">
+            <span class = "mobile-role-header">
+                Crew Member
+            </span>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            Find your dream job on set or in post-production.
+        </div>
+    </div>
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isPropertyManager']">
+            <span class = "mobile-role-header">
+                Property Manager
+            </span>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            Rent your place, camera, lights, sound, sports cars, weapons, and more.
+        </div>
+    </div>
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isInvestor']">
+            <span class = "mobile-role-header">
+                Investor
+            </span>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            Trade shares in critically-acclaimed content with the world's first film stock market, secured by Google Cloud.
+        </div>
+    </div>
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isStreamer']">
+            <span class = "mobile-role-header">
+                Streamer
+            </span>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            License award-worthy content, commission new productions, and continue to expand our collective moral imagination.
+        </div>
+    </div>
+    <div class = "mobile-checkbox">
+        <mat-checkbox [(ngModel)] = "member['isAudience']">
+            <span class = "mobile-role-header">
+                Audience
+            </span>
+        </mat-checkbox>
+        <div class = "mobile-role-subheader">
+            Follow your favorite artists, and get behind-the-scenes access to Hollywood productions before they're released.
+        </div>
+    </div>
+    <div id = "mobile-next-button" (click) = "onSubmit()">
+        <b>Next</b>
+    </div>
+    <div id = "mobile-next-button-gap"></div>
+</div>

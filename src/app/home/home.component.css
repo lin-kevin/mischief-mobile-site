@@ -77,13 +77,13 @@
 
 .mobile-img {
     display: block;
-    width: 85%;
+    width: 324px;
     margin: auto;
     padding-bottom: 70px;
 }
 
 .light {
-    background-color: #242424;
+    background-color: #262626;
 }
 
 /* 
@@ -127,6 +127,9 @@
 
 .mobile-social {
     font-size: 20px;
+}
+
+.fa {
     padding-right: 35px;
 }
 

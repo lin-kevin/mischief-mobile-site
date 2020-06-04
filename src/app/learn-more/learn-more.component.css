@@ -1,0 +1,85 @@
+#mobile-form {
+    background-color: #262626;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#mobile-form-header {
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+#mobile-form-subheader {
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 15px;
+}
+
+::ng-deep mat-form-field {
+    width: 100%;
+    padding-top: 20px;
+    border-color: #606160;
+}
+
+::ng-deep mat-label {
+    color: #606160;
+}
+
+::ng-deep input {
+    height: 50px;
+    color: #606160;
+}
+
+.mat-input-element {
+    color: white;
+}
+
+::ng-deep mat-hint {
+    font-size: 0.6em;
+    font-weight: 500;
+    color: #606160;
+    padding-top: 5px;
+}
+
+.mobile-checkbox {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+::ng-deep .mat-checkbox-background {
+    background-color: #262626;
+    border: 2px solid #606160;
+}
+
+.mobile-privacy {
+    font-size: 0.85em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #606160;
+}
+
+a {
+    color: #1F89EE; 
+}
+
+#mobile-next-button {
+    float: right;
+    background-color: #1D7EEB; 
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85em;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-top: 60px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#mobile-next-button-gap {
+    height: 120px;
+}

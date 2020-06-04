@@ -1,0 +1,61 @@
+#mobile-form {
+    background-color: #262626;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+#mobile-form-header {
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+#mobile-form-subheader {
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 10px;
+}
+
+.mobile-checkbox {
+    padding-top: 25px;
+}
+
+::ng-deep .mat-checkbox-background {
+    background-color: #262626;
+    border: 2px solid #606160;
+}
+
+.mobile-role-header {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    padding-left: 8px;
+}
+
+.mobile-role-subheader{
+    font-size: 0.83em;
+    line-height: 1.5em;
+    color: #606160;
+    margin-left: 32px;
+    margin-right: 10%;
+}
+
+#mobile-next-button {
+    float: right;
+    background-color: #1D7EEB; 
+    border: none;
+    border-radius: 4px;
+    font-size: 0.85em;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-top: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#mobile-next-button-gap {
+    height: 120px;
+}

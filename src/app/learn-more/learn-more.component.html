@@ -1,0 +1,42 @@
+<div id = "mobile-form">
+    <div id = "mobile-form-header">
+        <b>Mischief </b> <br>
+        Sign up for early access
+    </div>
+    <div id = "mobile-form-subheader">
+        to accelerate your career in Hollywood
+    </div>
+
+    <mat-form-field appearance="outline">
+        <mat-label>First Name</mat-label>
+        <input [(ngModel)] = "member.firstName" matInput>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Last Name</mat-label>
+        <input [(ngModel)] = "member.lastName" matInput value = "member.lastName">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input [(ngModel)] = "member.email" matInput value = "member.email">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Zip Code</mat-label>
+        <input [(ngModel)] = "member.zipCode" matInput value = "member.zipCode">
+        <mat-hint>Optional: Sharing your location helps us prioritize where to launch. </mat-hint>
+    </mat-form-field>
+</div>
+
+<div class = "mobile-checkbox">
+    <mat-checkbox [(ngModel)] = "member.privacy">
+        <span class = "mobile-privacy">
+            I agree to Mischief's 
+            <a href="https://drive.google.com/file/d/1BbFj9wuvIeg3wHzgZFNb-CtHhZmJs9GH/view?usp=sharing" target="_blank"> 
+                Privacy Policy & Terms 
+            </a>
+        </span>
+    </mat-checkbox>
+</div>
+<div id = "mobile-next-button" (click) = "onSubmit()">
+    <b>Next</b>
+</div>
+<div id = "mobile-next-button-gap"></div>
