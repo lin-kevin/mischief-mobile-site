@@ -12,6 +12,7 @@
     padding: 10px;
     display: inline-block;
     width: 100%;
+    color: #ffffff;
 }
 
 #mobile-logo {
@@ -58,6 +59,7 @@
 #mobile-body {
     display: inline-block;
     width: 100%;
+    color: #ffffff;
 }
 
 .mobile-big {
@@ -100,6 +102,7 @@
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
     padding-top: 15px;
     padding-bottom: 40px;
+    color: #ffffff;
 }
 
 .mobile-white-button {
@@ -123,6 +126,7 @@
     padding-left: 20px;
     padding-bottom: 30px;
     line-height: 2.4em;
+    color: #ffffff;
 }
 
 .mobile-link {

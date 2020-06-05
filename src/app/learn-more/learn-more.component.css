@@ -3,6 +3,7 @@
     padding-top: 35px;
     padding-left: 40px;
     padding-right: 40px;
+    color: #ffffff;
 }
 
 #mobile-form-header {
@@ -22,34 +23,6 @@
     width: 100%;
 }
 
-.mat-form-field-label {
-    color: #303030 !important;
-}
-
-.form-text {
-    color: #606160 !important;
-}
-/*
-::ng-deep .mat-form-focused .mat-form-field-label {
-    color: #1b73e8 !important;
-}
-
-::ng-deep .mat-form-field-label {
-    color: #606160 !important;
-}
-
-::ng-deep .input {
-    color: #606160 !important;
-}
-
-::ng-deep .mat-input-element {
-    color: white !important;
-}
-
-::ng-deep .mat-hint {
-    color: #606160 !important; 
-}
-*/
 .mobile-checkbox-gap {
     height: 20px;
 }
@@ -74,14 +47,15 @@ a {
     background-color: #1D7EEB; 
     border: none;
     border-radius: 4px;
-    font-size: 0.85em;
-    padding-top: 10px;
+    font-size: 14px;
+    padding-top: 8px;
     padding-right: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     padding-left: 30px;
     margin-top: 50px;
     margin-right: 40px;
     text-align: center;
+    color: #ffffff;
 }
 
 #mobile-next-button-gap {
