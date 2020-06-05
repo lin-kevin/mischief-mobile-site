@@ -16,7 +16,7 @@ export class RolesComponent implements OnInit {
   sessionLastName = sessionStorage.getItem("lastName");
   sessionEmail = sessionStorage.getItem("email");
   sessionZipCode = sessionStorage.getItem("zipCode");
-  sessionIsScreenWriter = sessionStorage.getItem("isScreenwriter");
+  sessionIsScreenwriter = sessionStorage.getItem("isScreenwriter");
   sessionIsProducer = sessionStorage.getItem("isProducer");
   sessionIsActor = sessionStorage.getItem("isActor");
   sessionIsCrewMember = sessionStorage.getItem("isCrewMember");
@@ -30,23 +30,19 @@ export class RolesComponent implements OnInit {
     "lastName": this.sessionLastName,
     "email": this.sessionEmail,
     "zipCode": this.sessionZipCode,
-    "isScreenwriter": false,
-    "isProducer": false,
-    "isActor": false,
-    "isCrewMember": false,
-    "isPropertyManager": false,
-    "isInvestor": false,
-    "isStreamer": false,
-    "isAudience": false,
+    "isScreenwriter": this.sessionIsScreenwriter != "true" ? false : true,
+    "isProducer": this.sessionIsProducer != "true" ? false : true,
+    "isActor": this.sessionIsActor != "true" ? false : true,
+    "isCrewMember": this.sessionIsCrewMember != "true" ? false : true,
+    "isPropertyManager": this.sessionIsPropertyManager != "true" ? false : true,
+    "isInvestor": this.sessionIsInvestor != "true" ? false : true,
+    "isStreamer": this.sessionIsStreamer != "true" ? false : true,
+    "isAudience": this.sessionIsAudience != "true" ? false : true,
   }
 
-  /*
-  storeIsScreenWriter() {
-    sessionStorage.setItem('isScreenWriter', this.member["isScreenWriter"].toString());
-    console.log(sessionStorage.getItem("isScreenWriter"));
-    console.log(this.member["isScreenWriter"]);
+  store(s: string) {
+    sessionStorage.setItem(s, (!this.member[s]).toString());
   }
-  */
 
   onSubmit() {
     console.log(this.member);

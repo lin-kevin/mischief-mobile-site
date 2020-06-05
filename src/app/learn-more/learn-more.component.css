@@ -6,47 +6,48 @@
 }
 
 #mobile-form-header {
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: 500;
     line-height: 2em;
 }
 
 #mobile-form-subheader {
     font-weight: 500;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 2em;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
 }
 
-::ng-deep mat-form-field {
+::ng-deep .mat-form-field {
     width: 100%;
-    padding-top: 20px;
-    border-color: #606160;
 }
 
-::ng-deep mat-label {
-    color: #606160;
+::ng-deep .mat-form-field-label {
+    color: #303030 !important;
+}
+/*
+::ng-deep .mat-form-focused .mat-form-field-label {
+    color: #1b73e8 !important;
 }
 
-::ng-deep input {
-    height: 50px;
-    color: #606160;
+::ng-deep .mat-form-field-label {
+    color: #606160 !important;
 }
 
-.mat-input-element {
-    color: white;
+::ng-deep .input {
+    color: #606160 !important;
 }
 
-::ng-deep mat-hint {
-    font-size: 0.6em;
-    font-weight: 500;
-    color: #606160;
-    padding-top: 5px;
+::ng-deep .mat-input-element {
+    color: white !important;
 }
 
-.mobile-checkbox {
-    padding-top: 40px;
-    padding-left: 40px;
+::ng-deep .mat-hint {
+    color: #606160 !important; 
+}
+*/
+.mobile-checkbox-gap {
+    height: 20px;
 }
 
 ::ng-deep .mat-checkbox-background {
@@ -55,7 +56,6 @@
 }
 
 .mobile-privacy {
-    font-size: 0.85em;
     font-weight: 500;
     line-height: 1.5em;
     color: #606160;
@@ -75,11 +75,12 @@ a {
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 30px;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-right: 40px;
     text-align: center;
 }
 
 #mobile-next-button-gap {
-    height: 120px;
+    height: 150px;
+    background-color: #262626;
 }
