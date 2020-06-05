@@ -43,7 +43,7 @@ export class LearnMoreComponent implements OnInit {
       window.alert('Please enter a valid zipcode.');
       return;
     }
-    if (this.member["privacy"] == false)
+    if (!this.member["privacy"])
     {
       window.alert('Please review our Privacy Policy and User Agreement.');
       return;

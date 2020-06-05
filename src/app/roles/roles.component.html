@@ -7,7 +7,7 @@
         Check all that apply.
     </div>
     
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isScreenwriter')">
         <mat-checkbox [(ngModel)] = "member['isScreenwriter']">
             <span class = "mobile-role-header">
                 Screenwriter
@@ -17,7 +17,7 @@
             Sell your scripts, without the middleman.
         </div>
     </div>
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isProducer')">
         <mat-checkbox [(ngModel)] = "member['isProducer']">
             <div class = "mobile-role-header">
                 Producer
@@ -27,7 +27,7 @@
             Lead a production, from script to screen.
         </div>
     </div>
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isActor')">
         <mat-checkbox [(ngModel)] = "member['isActor']">
             <span class = "mobile-role-header">
                 Actor
@@ -37,7 +37,7 @@
             Discover your breakout role with free casting calls and auditions.
         </div>
     </div>
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isCrewMember')">
         <mat-checkbox [(ngModel)] = "member['isCrewMember']">
             <span class = "mobile-role-header">
                 Crew Member
@@ -47,7 +47,7 @@
             Find your dream job on set or in post-production.
         </div>
     </div>
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isPropertyManager')">
         <mat-checkbox [(ngModel)] = "member['isPropertyManager']">
             <span class = "mobile-role-header">
                 Property Manager
@@ -57,7 +57,7 @@
             Rent your place, camera, lights, sound, sports cars, weapons, and more.
         </div>
     </div>
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isInvestor')">
         <mat-checkbox [(ngModel)] = "member['isInvestor']">
             <span class = "mobile-role-header">
                 Investor
@@ -67,7 +67,7 @@
             Trade shares in critically-acclaimed content with the world's first film stock market, secured by Google Cloud.
         </div>
     </div>
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isStreamer')">
         <mat-checkbox [(ngModel)] = "member['isStreamer']">
             <span class = "mobile-role-header">
                 Streamer
@@ -77,7 +77,7 @@
             License award-worthy content, commission new productions, and continue to expand our collective moral imagination.
         </div>
     </div>
-    <div class = "mobile-checkbox">
+    <div class = "mobile-checkbox" (click) = "store('isAudience')">
         <mat-checkbox [(ngModel)] = "member['isAudience']">
             <span class = "mobile-role-header">
                 Audience
